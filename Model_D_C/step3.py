@@ -51,4 +51,4 @@ print(df_final.info())
 #==================================================
 
 # save finale changes to a final dataset
-df_final.to_csv(r'C:\Users\Sisto\Documents\Programming\Python\Projects\Exoplanets\RandomForestRegressor\Model_D\Model_D_C\modelC.csv')
+df_final.to_csv(r'C:\Users\Sisto\Documents\Programming\Python\Projects\Exoplanets\RandomForestRegressor\Model_D\Model_D_C\modelC.csv', index=False)
