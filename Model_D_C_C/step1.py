@@ -271,4 +271,4 @@ print('')
 #===========================================================
 
 # save changes to new dataset
-df.to_csv(r'C:\Users\Sisto\Documents\Programming\Python\Projects\Exoplanets\RandomForestRegressor\Model_D\Model_D_C_C\preprocessed.csv')
+df.to_csv(r'C:\Users\Sisto\Documents\Programming\Python\Projects\Exoplanets\RandomForestRegressor\Model_D\Model_D_C_C\preprocessed.csv', index=False)
