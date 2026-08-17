@@ -13,8 +13,8 @@ step3: COMPELETE DATASET FOR CALCULATION
 import pandas as pd
 
 # import files
-df_original = pd.read_csv('/Users/ershadataei/Documents/Bahare/Programming/Python/Project_Python/ALL EXOPLANETS/RandomForestRegressor/Model_C_C/preprocessed.csv')
-df_modelA = pd.read_csv('/Users/ershadataei/Documents/Bahare/Programming/Python/Project_Python/ALL EXOPLANETS/RandomForestRegressor/Model_C_C/filled_modelC_C.csv')
+df_original = pd.read_csv(r'C:\Users\Sisto\Documents\Programming\Python\Projects\Exoplanets\RandomForestRegressor\Model_C_C\preprocessed.csv')
+df_modelA = pd.read_csv(r'C:\Users\Sisto\Documents\Programming\Python\Projects\Exoplanets\RandomForestRegressor\Model_C_C\filled_modelC_C.csv')
 #=============================================
 
 # planets with their detection type
@@ -53,4 +53,4 @@ print(df_final.info())
 #==================================================
 
 # save finale changes to a final dataset
-df_final.to_csv('/Users/ershadataei/Documents/Bahare/Programming/Python/Project_Python/ALL EXOPLANETS/RandomForestRegressor/Model_C_C/modelC_C.csv', index=False)
+df_final.to_csv(r'C:\Users\Sisto\Documents\Programming\Python\Projects\Exoplanets\RandomForestRegressor\Model_C_C\modelC_C.csv', index=False)
