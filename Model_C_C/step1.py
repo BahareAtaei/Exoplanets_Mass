@@ -56,8 +56,8 @@ use_cols = [
     'temp_calculated'
 ]
 print("Importing Files ...")
-df1 = pd.read_csv('/Users/ershadataei/Documents/Bahare/Programming/Python/Project_Python/ALL EXOPLANETS/RandomForestRegressor/Model_C_C/exoplanet.eu_catalog_03-08-26_16_42_07.csv')
-dff = pd.read_csv('/Users/ershadataei/Documents/Bahare/Programming/Python/Project_Python/ALL EXOPLANETS/RandomForestRegressor/Model_C_C/exoplanet.eu_catalog_03-08-26_16_42_07.csv', usecols=use_cols)
+df1 = pd.read_csv(r'C:\Users\Sisto\Documents\Programming\Python\Projects\Exoplanets\RandomForestRegressor\Model_C_C\exoplanet.eu_catalog_03-08-26_16_42_07.csv')
+dff = pd.read_csv(r'C:\Users\Sisto\Documents\Programming\Python\Projects\Exoplanets\RandomForestRegressor\Model_C_C\exoplanet.eu_catalog_03-08-26_16_42_07.csv', usecols=use_cols)
 df = dff.copy()
 print('='*50)
 print('')
@@ -252,4 +252,4 @@ print('')
 #===========================================================
 
 # save changes to new dataset
-df.to_csv('/Users/ershadataei/Documents/Bahare/Programming/Python/Project_Python/ALL EXOPLANETS/RandomForestRegressor/Model_C_C/preprocessed.csv')
+df.to_csv(r'C:\Users\Sisto\Documents\Programming\Python\Projects\Exoplanets\RandomForestRegressor\Model_C_C\preprocessed.csv', index=False)
